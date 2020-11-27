@@ -26,18 +26,18 @@
 .count-enter
   background: red
   transition .5s
-  transform translateY(100%)
+  transform translateY(100%)  // start off screen
   &.count-enter-active
     background: yellow
-    transform translateY(0)
+    transform translateY(0)  // put it in it's normal resting spot
 
 .count-exit
   background: black
-  transform translateY(0)
+  transform translateY(0)  // start it where it is
   transition .5s
   position absolute
   left 0
   bottom 0
   &.count-exit-active
     background green
-    transform translateY(-100%) scale(3)
+    transform translateY(-100%) scale(3)  // start it where it is
