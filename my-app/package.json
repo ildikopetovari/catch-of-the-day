@@ -12,6 +12,7 @@
     "react-rebase": "^1.0.5",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "react-transition-group": "^4.4.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -39,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "re-base": "^4.0.0"
+    "re-base": "^4.0.0",
+    "react-addons-css-transition-group": "^15.6.2"
   }
 }
